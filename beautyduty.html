@@ -1,0 +1,72 @@
+<!-- 
+Project: Beauty Duty - Team Project 1 
+Author: Sabrina Jackson
+Date: 7/20/19
+
+filename: beautyduty.html
+-->
+
+<!DOCTYPE html>
+<html lang="en">	
+<head>
+	<title>Beauty Duty!</title>
+	<meta charset="utf-8" />			
+	<meta name="viewport" content="width=device-width">
+	<!-- Local Stylesheets -->
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<link rel="stylesheet" href="newsletter.css">
+</head>
+<body>
+	<h1 id="top">BEAUTY DUTY</h1>
+	<div class="topnav menu">
+		<nav class="tabs">
+			<a href="beautyduty.html">HOME</a>
+		    <a href="haircare.html">HAIR CARE</a>
+		    <a href="makeup.html">MAKE UP</a>		     
+		    <a href="skincare.html">SKIN CARE</a>
+		    <a href="contact.html">CONTACT US</a>	
+		</nav>
+	 </div>
+<article>
+	<div class="content">
+		<h1>What is beauty to you?</h1>
+		<img class="models" src="beauty.jpg" alt="women holding each other" /></a>
+		<p id="questions">Skate ipsum dolor sit amet, rock and roll nose-bump impossible Tracker China Banks flypaper nosebone. Nose bump cab flip soul skate sick kickturn feeble. Spine frontside soul skate noseblunt slide half-flip nosebone. Ollie street durometer nollie noseblunt slide nosebone. Birdie bigspin kidney 50-50 Tim May ollie north chicken wing. Coffin lipslide snake rock and roll half-flip 1080. Gap goofy footed tic-tac slam grind bank. Thrasher poseur street kickturn birdie camel back pressure flip. Risers bank cess slide hang ten Saran Wrap rail. Camel back switch Skateboarder hip skate or die pump stalefish. Bruised heel Rudy Johnson gnarly coping tic-tac handplant tail.</p>
+	</div>
+</article>
+
+<article class="container">
+		<h1>How important is it to you?</h1>
+		<img src="beaut3.jpeg" alt="women holding an umbrella" width="325" height="200" />
+		<p id="questions">Acid drop egg plant axle set speed wobbles skate or die Hugh Bod Boyle crooked grind hip. Face plant Tracker freestyle Vans Calfornia Daze shinner hip ollie hole 1080. Casper transfer skate key nose blunt 720 nosegrind smith grind Cross Bones. Colby Carter frontside air 50-50 coffin dude bluntslide skate key steps. Frontside acid drop tuna-flip pump skate or die shinner mute-air. Blunt smith grind tailslide launch ramp face plant mute-air disaster. Sacto axle set dude nose-bump Saran Wrap darkslide disaster egg plant. Locals street nose grab casper kickflip grind 900. Cab flip disaster crail grab indy grab frigid air layback slob air Kevin Ancell. Slide transition birdie rails bail nose grab lipslide. Kickflip nose grab fastplant finger flip 720 rail slide Justin Regan bruised heel. Death box full-cab nosepicker birdie mute-air goofy footed pump. Fastplant rad kickflip Johnny Rad casper slide 180 grab slap maxwell. </p>
+</article>
+
+		<!-- Sign up for newsletter -->
+		<form name="myform" id="newsletter" method="post " action="thankyou.html">
+    		<fieldset id="custFeedback">
+	    		<legend>Newsletter Signup</legend> 
+	    		<div class="formRow">    
+	    			<label for="name">Name*</label>
+		 			<input type="text" id="name" name="name" placeholder="Please enter your name." required>
+				 </div>
+		  		<div class="formRow">
+		  			<label for="email1">Email Address*</label>
+					<input type="text" id="email" pattern="[^ @]*@[^ @]*" name="email" placeholder="Valid email address using @." required>
+	       		</div> 
+	       			<p><input type="checkbox" name="mailMe" id="mailNL" value="yes" required/>
+	            	<label for="mailNL">Add me to your daily Beauty Duty newsletter list for great beauty tips and articles!</label></p>
+	        <!--Creating a submit button -->
+	         	<div id="buttons">
+	            	<input type="submit" value="Subscribe" /> 
+	         	</div> <!-- End of submit button -->
+         	</fieldset>
+		</form>
+		<!-- Javascript -->
+   	<script type="text/javascript">
+   		alert("Welcome to Beauty Duty! Your guide to tips, beauty secrets and more!");
+   	</script>
+</body>
+<footer>
+    Beauty Duty &#169; 	
+</footer>
+</html>

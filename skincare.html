@@ -1,0 +1,87 @@
+<!-- 
+Project: Beauty Duty - Team Project 1 
+Author: Sabrina Jackson
+Date: 7/20/19
+
+filename: skincare.html
+-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Beauty Duty!</title>
+      <meta charset="utf-8" />      
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <!-- Local Stylesheets -->
+      <link rel="stylesheet" type="text/css" href="styles.css">
+      <link rel="stylesheet" href="forms.css">
+</head>
+<body>
+  <h1 id="top">BEAUTY DUTY</h1>
+  <div class="topnav">
+    <nav class="tabs">
+      <a href="beautyduty.html">HOME</a>
+      <a href="haircare.html">HAIR CARE</a>         
+      <a href="makeup.html">MAKE UP</a>        
+      <a href="skincare.html">SKIN CARE</a>
+      <a href="contact.html">CONTACT US</a>
+    </nav>
+   </div>
+<article>
+  <div class="content">
+    <h1>Skin Care</h1>
+    <p><img id="skin" src="beaut1.jpeg" alt="female looking to her left side" width="200" height="300"></p>
+    <p id="questions">Cupcake ipsum dolor sit. Amet I love liquorice jujubes pudding croissant I love pudding. Apple pie macaroon toffee jujubes pie tart cookie applicake caramels. Halvah macaroon I love lollipop. Wypas I love pudding brownie cheesecake tart jelly-o. Bear claw cookie chocolate bar jujubes toffee.</p>
+  </div>
+</article>
+    <h2>What is your nighttime's skin routine after a day's slay?</h2>
+    <iframe width="340" height="315" src="https://www.youtube.com/embed/RlvYLgdL61A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <p id="questions">"In connection with this appellative of 'Whalebone whales,' it is of great importance to mention, that however such a nomenclature may be convenient in facilitating allusions to some kind of whales, yet it is in vain to attempt a clear classification of the Leviathan, founded upon either his baleen, or hump, or fin, or teeth."</p>
+    <!-- Feedback form -->
+    <form id="feedback" method="post " action="thankyou.html">
+      <fieldset id="custFeedback">
+        <legend>Survey</legend>
+          <div class="formRow"> <!-- Question 1 -->
+            <p>How often do you wash your face?
+              <select>
+                <option>Once a day</option>
+                <option>Twice a day</option>
+                <option>Three times a day</option>
+                <option>I do not have a routine to keep track.</option>
+              </select>
+            </p>
+          </div>
+          <div class="formRow"> <!-- Question 2 -->
+            <p>How often do you have acne breakouts?
+              <select>
+                <option>Daily</option>
+                <option>One or two times during the week</option>
+                <option>A few times monthly</option>
+                <option>I don't have acne breakouts. Lucky me!</option>
+              </select>
+            </p>
+          </div>
+          <div class="formRow"> <!-- Question 3 -->
+            <p>How much water do you drink daily?
+              <select>
+                <option>1-3 cups per day</option>
+                <option>4-6 cups per day</option>
+                <option>6-8 cups per day</option>
+                <option>More than 8 cups per day</option>
+              </select>
+            </p>
+          </div>
+          <div class="formRow"> <!-- Radio Type Input -->
+            <p>I know my skin type.<input type="radio" name="h" value="I know my skin type"></p>
+            <p>I do not know my skin type.
+            <input type="radio" name="h" value="I do not know my skin type"></p>
+            <p><input type="submit" value="Submit Answers!"></p>
+          </div> <!-- End of Radio type input -->
+      </fieldset>
+    </form><!--End of feedback form -->
+</body>
+<footer>
+    Beauty Duty &#169;    
+</footer>
+</html>

@@ -1,0 +1,107 @@
+/* 
+Project: Beauty Duty - Team Project 1 
+Author: Sabrina Jackson
+Date: 7/20/19
+
+filename: forms.css
+*/
+
+/* Form Layout Styles */
+div.formRow {
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-flow: row wrap;
+	flex-flow: row wrap;
+	margin:  7px 0px; 
+}
+
+div.formRow > * {
+	-webkit-flex: 1 1 150px;
+	flex: 1 1 150px;
+}
+
+form#feedback {
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-flow: row wrap;
+	flex-flow: row wrap;
+}
+
+form#feedback > fieldset {
+	background-color: black;
+	border-radius: 20px;
+	-webkit-flex: 1 1 300px;
+	flex: 1 1 300px;
+	font-size: 0.85em;
+	padding: 10px;
+	margin: 10px;
+}
+
+/* Legend Styles */
+legend {
+	background-color: coral;
+	color: white;
+	padding: 13px;
+	border-radius: 20px; 
+}
+
+
+/* Text Area Styles adding width to text area box*/
+
+textarea {
+	margin-top: 10px;
+	height: 200px;
+	width: 95%;
+}
+
+#name, #mail {
+	font-size: 1.0em;
+	color: black;
+	margin: auto;
+  	
+}
+
+label {
+	color: white;
+}
+
+/* Form Button Styles */
+div.formRow > input[type:text] {
+	-webkit-flex: 0 0 50px;
+	flex: 0 0 50px;
+	
+}
+
+div#buttons {
+	text-align: center;
+	width: 100%;
+}
+
+input[type='submit'] {
+	background-color: coral;
+	color: white;
+	padding: 13px;
+	border-radius: 20px; 
+}
+
+/* Validation Styles */
+input:focus, select:focus, textarea:focus {
+	background-color: rgb(220, 255, 220);
+
+}
+/* Adding check and images for validating input */
+
+input#name:focus:valid,
+input#mail:focus:valid {
+	background: rgb(220, 255, 220) url(valid.png) bottom right/contain no-repeat;
+}
+
+input#name:focus:invalid,
+input#mail:focus:invalid {
+	background: rgb(255, 232, 233) url(invalid.png) bottom right/contain no-repeat;
+}
+
+#commBox {
+	margin: auto;
+  	width: 90%;
+}

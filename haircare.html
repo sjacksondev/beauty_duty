@@ -1,0 +1,103 @@
+<!-- 
+Project: Beauty Duty - Team Project 1 
+Author: Sabrina Jackson
+Date: 7/20/19
+
+filename: haircare.html
+-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Beauty Duty!</title>
+      <meta charset="utf-8" />      
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+     <!-- Local Stylesheets -->
+      <link rel="stylesheet" type="text/css" href="styles.css">
+      <link rel="stylesheet" href="forms.css">
+  </head>
+<body>
+  <h1 id="top">BEAUTY DUTY</h1>
+  <div class="topnav">
+    <nav class="tabs">
+         <a href="beautyduty.html">HOME</a>
+        <a href="haircare.html">HAIR CARE</a>         
+        <a href="makeup.html">MAKE UP</a>        
+        <a href="skincare.html">SKIN CARE</a>
+        <a href="contact.html">CONTACT US</a>
+    </nav>
+  </div>
+<article class="container">
+  <h2>Hair Care</h2>
+  <img src="hairstyle1.jpeg" alt="female with braided style" />
+  <p id="questions">Japan air mini ramp Geoff Rowley airwalk hand rail wax half-flip frigid air. Death box salad g steps smith grind tailslide Pushead egg plant. Transfer opposite footed frind spine hang ten slide pogo coping. Powerslide gnar bucket nosegrindreestyle locals mongo crail slide Primo slide. Fastplant switch spine roll-in grab pivot frontside. Hang ten soul skate boardslide rail air axle set Tracker. Gnar bucket hard flip darkslide bluntslide half-cab 1080 fastplant. Rocket air layback kingpin lipslide slappy 270 50-50. Shoveit OJ IIs downhill fakie ollie bone air bluntslide 900.</p>
+</article>
+<article class="container">
+  <h1>What's your hair care routine?</h1>
+  <iframe width="350" height="315" src="https://www.youtube.com/embed/2aUL2Jzdnoc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <p id="questions">Lorem ipsum dolor sit amet, eam ne epicuri reprimique. Cu nec audiam definitiones. Dico autem an mei, eu wisi principes his, nam ad sumo omittam neglegentur. His agam denique ad, an verear facilis dolores quo. Sed ea assum partem abhorreant, ut mel animal mandamus corrumpit. Fuisset voluptua sea ea, harum iusto ea vis.
+ </p>
+</article>
+  <!-- Survey Form --> 
+  <form id="feedback" method="post " action="thankyou.html">
+   <fieldset id="custFeedback">
+      <legend>Survey</legend>
+          <div class="formRow"> <!-- Question 1 -->
+              <p>How often do you wash your hair?
+               <select>
+                 <option>Once a day</option>
+                 <option>Twice a week</option>
+                 <option>One to two times a month</option>
+                 <option>More than two times a month</option>
+                 <option>I do not wash my hair.</option>
+                 <option>I do not have a routine to keep track.</option>
+               </select>
+              </p>
+          </div>
+          <div class="formRow"> <!-- Question 2 -->
+            <p>How often do you trim your ends?
+              <select>
+                <option>Daily</option>
+                <option>Weekly</option>
+                <option>Once a month</option>
+                <option>Every other month</option>
+                <option>Once a year</option>
+                <option>I do not trim my ends.</option>
+              </select>
+            </p>
+          </div>
+          <div class="formRow"> <!-- Question 3 -->
+            <p>How often do visit the salon?
+              <select>
+                <option>Weekly</option>
+                <option>Once a month</option>
+                <option>More than once a month</option>
+                <option>Every other month</option>
+                <option>Yearly</option>
+              </select>
+            </p>
+          </div>
+          <div class="formRow"><!-- Question 4 -->
+            <p>What is your hair type?
+              <select>
+                <option>Straight</option>
+                <option>Curly</option>
+                <option>Wavy</option>
+              </select>
+            </p>
+          </div>
+          <div class="formRow"> <!-- Radio Type Input -->
+            <p>I know my hair grade.<input type="radio" name="y" value="I know my hair grade"></p>
+            <p>I do not know my hair grade.
+              <input type="radio" name="n" value="I do not know my hair grade"></p> <!-- End of Radio Type Input -->
+              <!-- Submit button -->
+            <p><input type="submit" value="Submit Answers!"></p>
+           </div>
+    </fieldset>
+  </form>
+</body>
+<footer>
+  Beauty Duty &#169;    
+</footer>
+</html>

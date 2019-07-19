@@ -1,0 +1,63 @@
+<!-- 
+Project: Beauty Duty - Team Project 1 
+Author: Sabrina Jackson
+Date: 7/20/19
+
+filename: contact.html
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Beauty Duty!</title>
+      <meta charset="utf-8" />      
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <!-- Local Stylesheets -->
+      <link rel="stylesheet" type="text/css" href="styles.css">
+      <link rel="stylesheet" type="text/css" href="forms.css">
+      <!-- Local Javascript -->
+      <script src="script.js"></script>
+</head>
+
+<body>
+  <h1 id="top">BEAUTY DUTY</h1>
+  <div class="topnav">
+    <nav class="tabs">
+        <a href="beautyduty.html">HOME</a>
+        <a href="haircare.html">HAIR CARE</a>         
+        <a href="makeup.html">MAKE UP</a>        
+        <a href="skincare.html">SKIN CARE</a>
+        <a href="contact.html">CONTACT US</a>
+    </nav>
+  </div>
+<article>
+  <h1>Want to share your feedback?</h1>
+  <p><span style="background-color: black">Contact Beauty Duty with any suggestions or feedback on features you would like to see on our website.</span></p>
+  <p><span style="background-color: black">Email: <a href="mailto:customerservice@beautyduty.com">customerservice@beautyduty.com</a>or please fill the feedback form below:</span></p>
+  <!-- Feedback form -->
+  <form id="feedback" method="post " action="thankyou.html">
+    <fieldset id="custFeedback">
+      <legend>Feedback Form</legend>
+        <div class="formRow">
+          <label for="name">Name*</label>
+          <input name="custName" id="name" type="text" placeholder="Please enter name." required autofocus />
+        </div>
+        <div class="formRow">
+          <label for="email">E-mail*</label>
+          <input name="email" id="email" type="email"  placeholder="Valid email address using @." required />
+        </div>
+          <!--Creating a text area box -->
+          <label for="commBox"></label>
+          <textarea name="custExpo" id=commBox placeholder="Please provide your feedback, comments, suggestions here! We look forward to hearing your ideas!" required></textarea>
+          <!--Creating a submit button -->
+         <div id="buttons">
+            <input type="submit" value="Submit" /> 
+         </div> <!-- End of submit button -->
+    </fieldset>
+  </form> <!-- End of feedback form -->
+  </br>
+</body>
+<footer>
+  Beauty Duty &#169;    
+</footer>
+</html>
