@@ -18,7 +18,7 @@ filename: beautyduty.html
 </head>
 <body>
 	<h1 id="top">BEAUTY DUTY</h1>
-	<div class="topnav menu">
+	<div class="topnav">
 		<nav class="tabs">
 			<a href="beautyduty.html">HOME</a>
 		    <a href="haircare.html">HAIR CARE</a>
@@ -63,7 +63,9 @@ filename: beautyduty.html
 		</form>
 		<!-- Javascript -->
    	<script type="text/javascript">
-   		alert("Welcome to Beauty Duty! Your guide to tips, beauty secrets and more!");
+   		window.onload = setTimeout(function(){
+    	alert('Welcome to Beauty Duty! Your guide for beauty tips, tutorials and more!');
+		}, 5000);
    	</script>
 </body>
 <footer>
